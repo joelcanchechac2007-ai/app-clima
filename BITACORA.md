@@ -12,9 +12,9 @@
 > vamos a desarrollar este trabajo paso a paso, primero organizemos el trabajo y creemos la estructura para hacer el dasarrollo dame los codigos y yo los agrego y creo los archivos
 
 **Qué respondió la IA:**
-PENDIENTE: escribir lo que respondió la IA a este prompt.
+voy a trabajar en ello y explicarte paso a paso
 
-**¿Funcionó a la primera?** No.
+**¿Funcionó a la primera?** si.
 
 **Qué corregí o ajusté:**
 Mejoré el diseño y corregí los errores al momento de agregar la API para que funcionara. Yo agregué los códigos.
