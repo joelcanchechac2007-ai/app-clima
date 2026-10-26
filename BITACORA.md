@@ -4,99 +4,101 @@
 **Autor:** joelcanchechac2007-ai
 **IA utilizada:** Claude
 
-> Completa cada prompt con tus propias palabras. Copia los prompts tal cual los escribiste.
-
 ---
 
 ## Prompt 1
 
 **Prompt (tal cual):**
-> creame la del clima q necesitas que te pase para q lo hagas
+> vamos a desarrollar este trabajo paso a paso, primero organizemos el trabajo y creemos la estructura para hacer el dasarrollo dame los codigos y yo los agrego y creo los archivos
 
 **Qué respondió la IA:**
-_(Ej.: me pidió mi usuario de GitHub, una carpeta en mi computadora y que revisara si tenía Node.js. Me dijo que sacara mi clave de OpenWeatherMap y no se la pasara.)_
+PENDIENTE: escribir lo que respondió la IA a este prompt.
 
-**¿Funcionó a la primera?** _(sí/no)_
+**¿Funcionó a la primera?** No.
 
 **Qué corregí o ajusté:**
-_( )_
+Mejoré el diseño y corregí los errores al momento de agregar la API para que funcionara. Yo agregué los códigos.
 
 ---
 
 ## Prompt 2
 
 **Prompt (tal cual):**
-> joelcanchechac2007-ai
+> Genera casos de prueba para validar el manejo de errores.
 
 **Qué respondió la IA:**
-_(Ej.: creó todos los archivos del proyecto: servidor, página, estilos, README, .gitignore y .env.example.)_
+- Campo vacío: debe mostrar "Escribe el nombre de una ciudad".
+- Ciudad inexistente ("asdfgh"): debe mostrar "No se encontró la ciudad".
+- Sin internet: debe mostrar "No tienes conexión a internet".
+- Servidor apagado: debe mostrar "No se pudo conectar con el servidor".
+- Clave inválida: debe mostrar "La clave de API no es válida".
 
-**¿Funcionó a la primera?** _( )_
+**¿Funcionó a la primera?** Sí.
 
 **Qué corregí o ajusté:**
-_( )_
+Configuré la clave de API manualmente.
 
 ---
 
 ## Prompt 3
 
 **Prompt (tal cual):**
-> _( )_
+> checa lo que hize, lo unico q no entendi es mi clave api
 
 **Qué respondió la IA:**
-_( )_
+Detectó que el archivo .env no tenía la clave y explicó cómo obtenerla en OpenWeatherMap.
 
-**¿Funcionó a la primera?** _( )_
+**¿Funcionó a la primera?** Sí.
 
 **Qué corregí o ajusté:**
-_( )_
+Se eliminó .env.example por error y tuvo que restaurarse.
 
 ---
 
 ## Prompt 4
 
 **Prompt (tal cual):**
-> _( )_
+> Modifica el fondo de la interfaz para que cambie según la condición climática.
 
 **Qué respondió la IA:**
-_( )_
+Haré los ajustes necesarios para cambiar la interfaz.
 
-**¿Funcionó a la primera?** _( )_
+**¿Funcionó a la primera?** PENDIENTE
 
 **Qué corregí o ajusté:**
-_( )_
+PENDIENTE
 
 ---
 
 ## Prompt 5
 
 **Prompt (tal cual):**
-> _( )_
+> PENDIENTE
 
 **Qué respondió la IA:**
-_( )_
+PENDIENTE
 
-**¿Funcionó a la primera?** _( )_
+**¿Funcionó a la primera?** PENDIENTE
 
 **Qué corregí o ajusté:**
-_( )_
+PENDIENTE
 
 ---
 
 ## Error de la IA que detecté
 
 **Qué pasó:**
-_(Ej.: código que no corría, una función que no existe, una solución insegura.)_
+PENDIENTE
 
 **Cómo lo resolví:**
-_( )_
+PENDIENTE
 
 ---
 
 ## Qué aprendí
 
-_( )_
+PENDIENTE
 
 ## Qué haría distinto la próxima vez
 
-_( )_
+PENDIENTE

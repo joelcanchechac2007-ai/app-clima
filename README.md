@@ -74,11 +74,11 @@ app-clima/
 | Herramienta | Para qué la usé |
 |---|---|
 | Claude (Anthropic) | Generar la estructura inicial del proyecto, el código del servidor y de la página, el manejo de errores y el borrador de este README. |
-| _(agrega otras si las usaste, p. ej. ChatGPT o Copilot)_ | _(para qué)_ |
+
 
 ### Lo que hice sin ayuda de IA
 
-- _(Escribe aquí lo que hiciste tú. Por ejemplo: crear la cuenta y la clave de API, configurar el `.env`, hacer los commits, probar los errores, cambiar el diseño o agregar alguna función.)_
+Sin ayuda de IA, me encargué de preparar todo el entorno y de llevar el proyecto hasta GitHub. Activé mi cuenta de GitHub Student Developer Pack, creé la carpeta del proyecto e instalé Node.js para poder ejecutar la aplicación. También creé mi cuenta en OpenWeatherMap, obtuve mi clave de API y la configuré en el archivo .env, cuidando que este archivo no se subiera al repositorio para mantenerla protegida. Después creé el repositorio en GitHub, configuré Git con mi nombre y mi correo, y ejecuté los comandos para hacer los commits y subir el proyecto. Por último, probé la aplicación en el navegador para comprobar que mostrara correctamente el clima y los mensajes de error.
 
 ## Bitácora
 
