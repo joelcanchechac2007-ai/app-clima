@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: linear-gradient(160deg, #4facfe, #00f2fe);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 16px;
+  color: #1e293b;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+.subtitulo {
+  color: #e0f2fe;
+  margin: 8px 0 24px;
+}
+
+.buscador {
+  display: flex;
+  gap: 8px;
+}
+
+.buscador input {
+  flex: 1;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.buscador button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #1e3a8a;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.buscador button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.mensaje {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 10px;
+  background: white;
+}
+
+.mensaje.error {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.tarjeta {
+  margin-top: 20px;
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temperatura {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.descripcion {
+  text-transform: capitalize;
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+.detalles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.detalles div {
+  background: #f1f5f9;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.detalles span {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+footer {
+  margin-top: 24px;
+  color: #e0f2fe;
+  font-size: 0.85rem;
+}
+
+footer a {
+  color: white;
+}
+
+.oculto {
+  display: none;
+}

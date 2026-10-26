@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App del Clima</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="contenedor">
+    <h1>🌤️ App del Clima</h1>
+    <p class="subtitulo">Escribe una ciudad para ver el clima actual</p>
+
+    <form id="formulario" class="buscador">
+      <input id="ciudad" type="text" placeholder="Ej. Mérida, Cancún, Madrid..." autocomplete="off">
+      <button id="boton" type="submit">Buscar</button>
+    </form>
+
+    <p id="mensaje" class="mensaje oculto"></p>
+
+    <section id="resultado" class="tarjeta oculto">
+      <h2 id="nombre-ciudad"></h2>
+      <div class="principal">
+        <img id="icono" alt="">
+        <span id="temperatura" class="temperatura"></span>
+      </div>
+      <p id="descripcion" class="descripcion"></p>
+
+      <div class="detalles">
+        <div><span>Sensación</span><strong id="sensacion"></strong></div>
+        <div><span>Mín / Máx</span><strong id="minmax"></strong></div>
+        <div><span>Humedad</span><strong id="humedad"></strong></div>
+        <div><span>Viento</span><strong id="viento"></strong></div>
+      </div>
+    </section>
+
+    <footer>Datos de <a href="https://openweathermap.org" target="_blank" rel="noopener">OpenWeatherMap</a></footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
